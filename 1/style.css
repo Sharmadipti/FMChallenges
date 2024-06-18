@@ -1,0 +1,30 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Raleway', 'Open Sans', sans-serif;
+}
+header {
+  margin: 1rem 0rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+header nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+header nav div a{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
